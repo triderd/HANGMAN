@@ -128,7 +128,7 @@ def init_state():
 guessed,missed,game_done,topic,secret_word = init_state()
 
 while True:
-    print("Тема: "+topic)
+    print("Тема НАШЕЙ ИГРЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ: "+topic)
     display_board(guessed, missed, secret_word)
     already_guessed = guessed + missed
     letter = guess_letter(already_guessed)
